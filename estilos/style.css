@@ -51,7 +51,7 @@ section#login > div#imagem{
     background-position: center center;
 }
 
-section#login > div#formulario{
+ div#formulario{
     display: block;
     padding: 10px;
 }
@@ -82,14 +82,14 @@ label{
     display: none;
 }
 
-div.campo > i{
+div.campo > span{
     color: white;
     background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
- input{
+ div.campo > input{
     background-color:#62dbd7;
     font-size: 1em;
     height: 100%;
@@ -97,10 +97,10 @@ div.campo > i{
     border-radius: 8px;
     padding: 4px;
     width: calc(100% - 44px);
-    transform: translateY(-12px);
+    transform: translateY(-50px);
 }
 
- input[type=submit]{
+ div.campo > input[type=submit]{
       display: block;
       font-size: 1em;
       width: 100%;
@@ -112,11 +112,11 @@ div.campo > i{
       cursor: pointer;
 }
 
-input[type=submit]:hover{
+div.campo > [type=submit]:hover{
     background-color: #316b69;
 }
 
-a.botao{
+div.campo > a.botao{
     display: block;
     text-align: center;
     font-size: 1em;
@@ -124,15 +124,16 @@ a.botao{
     height: 40px;
     background-color: white;
     color: #316b69;
-    padding-top: 5px;
+    padding-top: ;
+    margin-top: ;
     border: 1px solid #49a09d;
     border-radius: 7px;
     text-decoration: none;
 }
-a.botao:hover{
+div.campo > a.botao:hover{
     background-color: #70ece8;
 }
 
-a.botao > i{
+div.campo > a.botao > span{
     font-size: 0.8em;
 }
