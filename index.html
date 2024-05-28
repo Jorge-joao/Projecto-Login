@@ -21,19 +21,25 @@
 
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
-                       <span class="material-symbols-outlined">
-                            person
-                        </span> 
-                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required autocomplete="email">
-                        <label for="ilogin">Login</label>
+                    
+                        <div class="input-box">
+                            <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required autocomplete="email">
+                             <span class="material-symbols-outlined">
+                                person
+                            </span>
+                            <label for="ilogin">Login</label>
+                        </div>
                     </div>
                   
                     <div class="campo">
-                        <span class="material-symbols-outlined">
-                            lock
-                            </span>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" required autocomplete="current-password" minlength="8">
-                        <label for="isenha">Senha</label>
+                        
+                        <div class="input-box">
+                            <input type="password" name="senha" id="isenha" placeholder="Sua senha" required autocomplete="current-password" minlength="8">
+                            <span class="material-symbols-outlined">
+                                lock
+                                </span>
+                            <label for="isenha">Senha</label>
+                        </div>
                         <input type="submit" value="Entrar">
                         <a href="#" class="botao">Esqueceu a senha?<span class="material-symbols-outlined">
                             mail
