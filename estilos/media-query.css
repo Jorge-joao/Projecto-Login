@@ -8,7 +8,7 @@
 
     section#login{
         width: 80vw;
-        height: 290px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -36,7 +36,7 @@
 
     section#login{
         width: 950px;
-        height: 350px;
+        height: 400px;
     }
 
     section#login > div#imagem{
