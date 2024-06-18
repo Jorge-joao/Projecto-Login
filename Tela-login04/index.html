@@ -11,16 +11,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <form action="#" method="post">
+        <form action="#" method="post" autocomplete="off">
           <h1>Login</h1>
           <div class="input-box">
-            <input type="text" name="nome" id="inome" placeholder="Nome" required>
+            <input type="text" name="nome" id="inome" placeholder="Nome" required autocomplete="name" >
             <span class="material-symbols-outlined">
                 person
                 </span>
           </div>
           <div class="input-box">
-            <input type="password" name="senha" id="isenha" placeholder="Password" required>
+            <input type="password" name="senha" id="isenha" placeholder="Password" required autocomplete="current-password" minlength="8">
             <span class="material-symbols-outlined">
                 lock
                 </span>
